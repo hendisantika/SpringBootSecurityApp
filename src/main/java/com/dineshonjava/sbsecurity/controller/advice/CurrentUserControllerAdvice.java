@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import com.dineshonjava.sbsecurity.bean.CurrentUser;
 
 /**
- * @author Dinesh.Rajput
+ * @author hendisantika
  *
  */
 @ControllerAdvice

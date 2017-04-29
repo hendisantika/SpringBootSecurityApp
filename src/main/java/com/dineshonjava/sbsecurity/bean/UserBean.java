@@ -3,14 +3,13 @@
  */
 package com.dineshonjava.sbsecurity.bean;
 
-import javax.validation.constraints.NotNull;
-
+import com.dineshonjava.sbsecurity.role.Role;
 import org.hibernate.validator.constraints.NotEmpty;
 
-import com.dineshonjava.sbsecurity.role.Role;
+import javax.validation.constraints.NotNull;
 
 /**
- * @author Dinesh.Rajput
+ * @author hendisantika
  *
  */
 public class UserBean {

@@ -9,7 +9,7 @@ import com.dineshonjava.sbsecurity.model.User;
 import com.dineshonjava.sbsecurity.role.Role;
 
 /**
- * @author Dinesh.Rajput
+ * @author hendisantika
  *
  */
 public class CurrentUser extends org.springframework.security.core.userdetails.User {

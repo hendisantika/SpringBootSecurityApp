@@ -6,7 +6,7 @@ package com.dineshonjava.sbsecurity.model;
 import org.springframework.data.repository.CrudRepository;
 
 /**
- * @author Dinesh.Rajput
+ * @author hendisantika
  *
  */
 public interface UserRepository extends CrudRepository<User, Long>{

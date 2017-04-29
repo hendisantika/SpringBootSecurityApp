@@ -14,7 +14,7 @@ import com.dineshonjava.sbsecurity.bean.UserBean;
 import com.dineshonjava.sbsecurity.service.UserService;
 
 /**
- * @author Dinesh.Rajput
+ * @author hendisantika
  *
  */
 @Component

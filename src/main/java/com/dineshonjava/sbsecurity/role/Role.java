@@ -4,7 +4,7 @@
 package com.dineshonjava.sbsecurity.role;
 
 /**
- * @author Dinesh.Rajput
+ * @author hendisantika
  *
  */
 public enum Role {

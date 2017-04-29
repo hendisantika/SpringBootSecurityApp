@@ -1,2 +1,8 @@
 INSERT INTO user (username, email, password, role)
-VALUES ('dinesh', 'admin@doj.com', '$2a$10$ebyC4Z5WtCXXc.HGDc1Yoe6CLFzcntFmfse6/pTj7CeDY5I05w16C', 'ADMIN');
+VALUES ('admin', 'admin@konohagakure.com', '$2a$06$vnBwhb2J1zeL3IpNLFGQ2OKHCekzkV3Au1AfC/Jn1.fT9sk2BcmWS', 'ADMIN'); // 123
+
+INSERT INTO user (username, email, password, role)
+VALUES ('hendisantika', 'hendisantika@konohagakure.com', '$2a$06$vnBwhb2J1zeL3IpNLFGQ2OKHCekzkV3Au1AfC/Jn1.fT9sk2BcmWS', 'USER'); // 123
+
+INSERT INTO user (username, email, password, role)
+VALUES ('demo', 'demo@localhost', '$2a$06$vnBwhb2J1zeL3IpNLFGQ2OKHCekzkV3Au1AfC/Jn1.fT9sk2BcmWS', 'USER'); // 123
