@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.dineshonjava.sbsecurity.model;
+package com.hendisantika.sbsecurity.model;
 
 import org.springframework.data.repository.CrudRepository;
 

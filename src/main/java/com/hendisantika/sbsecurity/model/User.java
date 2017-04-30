@@ -1,9 +1,9 @@
 /**
  * 
  */
-package com.dineshonjava.sbsecurity.model;
+package com.hendisantika.sbsecurity.model;
 
-import com.dineshonjava.sbsecurity.role.Role;
+import com.hendisantika.sbsecurity.role.Role;
 
 import javax.persistence.*;
 import java.io.Serializable;

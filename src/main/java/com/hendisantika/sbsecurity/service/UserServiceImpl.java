@@ -1,19 +1,18 @@
 /**
  * 
  */
-package com.dineshonjava.sbsecurity.service;
+package com.hendisantika.sbsecurity.service;
 
 import java.util.Collection;
 
+import com.hendisantika.sbsecurity.bean.UserBean;
+import com.hendisantika.sbsecurity.model.User;
+import com.hendisantika.sbsecurity.model.UserRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
-
-import com.dineshonjava.sbsecurity.bean.UserBean;
-import com.dineshonjava.sbsecurity.model.User;
-import com.dineshonjava.sbsecurity.model.UserRepository;
 
 /**
  * @author Dinesh.Rajput
@@ -25,7 +24,7 @@ public class UserServiceImpl implements UserService {
 	private static final Logger LOGGER = LoggerFactory.getLogger(UserServiceImpl.class);
 	
 	@Autowired
-	UserRepository userRepository;
+    UserRepository userRepository;
 	
 	@Override
 	public User getUserById(long id) {

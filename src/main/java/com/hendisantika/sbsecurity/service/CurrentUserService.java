@@ -1,9 +1,9 @@
 /**
  * 
  */
-package com.dineshonjava.sbsecurity.service;
+package com.hendisantika.sbsecurity.service;
 
-import com.dineshonjava.sbsecurity.bean.CurrentUser;
+import com.hendisantika.sbsecurity.bean.CurrentUser;
 
 /**
  * @author Dinesh.Rajput

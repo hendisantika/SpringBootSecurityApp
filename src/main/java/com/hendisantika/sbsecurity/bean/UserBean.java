@@ -1,9 +1,9 @@
 /**
  * 
  */
-package com.dineshonjava.sbsecurity.bean;
+package com.hendisantika.sbsecurity.bean;
 
-import com.dineshonjava.sbsecurity.role.Role;
+import com.hendisantika.sbsecurity.role.Role;
 import org.hibernate.validator.constraints.NotEmpty;
 
 import javax.validation.constraints.NotNull;

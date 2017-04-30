@@ -1,14 +1,14 @@
 /**
  * 
  */
-package com.dineshonjava.sbsecurity.service;
+package com.hendisantika.sbsecurity.service;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 
-import com.dineshonjava.sbsecurity.bean.CurrentUser;
-import com.dineshonjava.sbsecurity.role.Role;
+import com.hendisantika.sbsecurity.bean.CurrentUser;
+import com.hendisantika.sbsecurity.role.Role;
 
 /**
  * @author Dinesh.Rajput

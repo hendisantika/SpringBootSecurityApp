@@ -1,8 +1,9 @@
 /**
  * 
  */
-package com.dineshonjava.sbsecurity.bean.validator;
+package com.hendisantika.sbsecurity.bean.validator;
 
+import com.hendisantika.sbsecurity.bean.UserBean;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,8 +11,7 @@ import org.springframework.stereotype.Component;
 import org.springframework.validation.Errors;
 import org.springframework.validation.Validator;
 
-import com.dineshonjava.sbsecurity.bean.UserBean;
-import com.dineshonjava.sbsecurity.service.UserService;
+import com.hendisantika.sbsecurity.service.UserService;
 
 /**
  * @author hendisantika

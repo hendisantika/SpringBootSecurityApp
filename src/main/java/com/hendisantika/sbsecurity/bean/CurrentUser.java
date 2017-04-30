@@ -1,12 +1,12 @@
 /**
  * 
  */
-package com.dineshonjava.sbsecurity.bean;
+package com.hendisantika.sbsecurity.bean;
 
+import com.hendisantika.sbsecurity.model.User;
 import org.springframework.security.core.authority.AuthorityUtils;
 
-import com.dineshonjava.sbsecurity.model.User;
-import com.dineshonjava.sbsecurity.role.Role;
+import com.hendisantika.sbsecurity.role.Role;
 
 /**
  * @author hendisantika

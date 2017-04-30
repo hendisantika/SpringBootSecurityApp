@@ -1,12 +1,12 @@
 /**
  * 
  */
-package com.dineshonjava.sbsecurity.service;
+package com.hendisantika.sbsecurity.service;
 
 import java.util.Collection;
 
-import com.dineshonjava.sbsecurity.bean.UserBean;
-import com.dineshonjava.sbsecurity.model.User;
+import com.hendisantika.sbsecurity.bean.UserBean;
+import com.hendisantika.sbsecurity.model.User;
 
 /**
  * @author Dinesh.Rajput

@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.dineshonjava.sbsecurity.security;
+package com.hendisantika.sbsecurity.security;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.security.SecurityProperties;

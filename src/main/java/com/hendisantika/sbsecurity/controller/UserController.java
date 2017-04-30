@@ -1,11 +1,11 @@
 /**
  * 
  */
-package com.dineshonjava.sbsecurity.controller;
+package com.hendisantika.sbsecurity.controller;
 
-import com.dineshonjava.sbsecurity.bean.UserBean;
-import com.dineshonjava.sbsecurity.bean.validator.UserBeanValidator;
-import com.dineshonjava.sbsecurity.service.UserService;
+import com.hendisantika.sbsecurity.bean.UserBean;
+import com.hendisantika.sbsecurity.bean.validator.UserBeanValidator;
+import com.hendisantika.sbsecurity.service.UserService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -32,7 +32,7 @@ public class UserController {
 	UserService userService;
 	
 	@Autowired
-	UserBeanValidator userBeanValidator;
+    UserBeanValidator userBeanValidator;
 	
 	@InitBinder("form")
     public void initBinder(WebDataBinder binder) {

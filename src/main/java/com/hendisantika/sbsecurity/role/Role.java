@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.dineshonjava.sbsecurity.role;
+package com.hendisantika.sbsecurity.role;
 
 /**
  * @author hendisantika

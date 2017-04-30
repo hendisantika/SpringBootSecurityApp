@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.dineshonjava.sbsecurity.controller.advice;
+package com.hendisantika.sbsecurity.controller.advice;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -9,7 +9,7 @@ import org.springframework.security.core.Authentication;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ModelAttribute;
 
-import com.dineshonjava.sbsecurity.bean.CurrentUser;
+import com.hendisantika.sbsecurity.bean.CurrentUser;
 
 /**
  * @author hendisantika

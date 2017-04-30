@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.dineshonjava.sbsecurity.controller.advice;
+package com.hendisantika.sbsecurity.controller.advice;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
