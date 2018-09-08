@@ -18,11 +18,11 @@
     <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/>
 	<div>
         <label for="username">Name</label>
-        <input type="username" name="username" id="username" value="${form.username}" required autofocus/>
+        <input type="username" name="username" id="username" value="${form.username}" required autofocus size="40"/>
     </div>
     <div>
         <label for="email">Email address</label>
-        <input type="email" name="email" id="email" value="${form.email}" required autofocus/>
+        <input type="email" name="email" id="email" value="${form.email}" required autofocus size="40"/>
     </div>
     <div>
         <label for="password">Password</label>

@@ -20,7 +20,7 @@
 
     <div>
         <label for="email">Email address</label>
-        <input type="email" name="email" id="email" required autofocus/>
+        <input type="email" name="email" id="email" required autofocus size="50"/>
     </div>
     <div>
         <label for="password">Password</label>
