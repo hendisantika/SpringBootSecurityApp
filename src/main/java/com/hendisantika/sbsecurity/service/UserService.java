@@ -1,20 +1,21 @@
 /**
- * 
+ *
  */
 package com.hendisantika.sbsecurity.service;
 
-import java.util.Collection;
-
 import com.hendisantika.sbsecurity.bean.UserBean;
 import com.hendisantika.sbsecurity.model.User;
+
+import java.util.Collection;
+import java.util.Optional;
 
 /**
  * @author Dinesh.Rajput
  *
  */
 public interface UserService {
-	
-	User getUserById(long id);
+
+    Optional<User> getUserById(long id);
 
     User getUserByEmail(String email);
 

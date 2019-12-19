@@ -3,8 +3,6 @@
  */
 package com.hendisantika.sbsecurity.service;
 
-import java.util.Collection;
-
 import com.hendisantika.sbsecurity.bean.UserBean;
 import com.hendisantika.sbsecurity.model.User;
 import com.hendisantika.sbsecurity.model.UserRepository;
@@ -13,6 +11,9 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
+
+import java.util.Collection;
+import java.util.Optional;
 
 /**
  * @author Dinesh.Rajput
@@ -25,11 +26,11 @@ public class UserServiceImpl implements UserService {
 	
 	@Autowired
     UserRepository userRepository;
-	
+
 	@Override
-	public User getUserById(long id) {
+	public Optional<User> getUserById(long id) {
 		LOGGER.debug("Getting user={}", id);
-		return userRepository.findOne(id);
+		return userRepository.findById(id);
 	}
 
 	@Override
